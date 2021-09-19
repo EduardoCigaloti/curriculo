@@ -1,0 +1,105 @@
+.foto-perfil{
+    width: 150px;
+    /* espessura da borda, tipo da borda, cor da borda  */
+    border: 5px double #ececec;
+    -webkit-filter:grayscale(0%);
+}
+
+.foto-perfil:hover{
+    -webkit-filter:grayscale(100%);
+    transition: 1s;
+}
+
+.cabecalho{
+    background-color: rgb(174, 205, 224);
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-image: url('fundo.jpg');
+}
+
+.nome{
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: peachpuff;
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-family: 'Segoe UI';
+    font-size: 30px;
+}
+
+.cargo{
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: whitesmoke;
+    margin-top: 2px;
+    font-family: 'Segoe UI';
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.icones{
+    width: 30px;
+    -webkit-filter:grayscale(0%);
+
+}
+
+.icones:hover{
+    -webkit-filter:grayscale(100%);
+    transition: 0.5s;
+}
+
+.botao{
+    border: 1px solid white;
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    color: whitesmoke;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 3px;   
+}
+
+.botao:hover{
+    background-color: rgba(216, 112, 147, 0.5);
+    border-color: black;
+}
+
+.informacoes{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: honeydew;
+    padding-top: 20px;
+
+}
+
+.titulo{
+    font-family: 'Segoe UI';
+    color: #333;
+    border-bottom: 1px solid;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+.texto-sobre{
+    font-size: 16px;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    color: #333;
+
+}
+
+body{
+    background-color: honeydew;
+}
